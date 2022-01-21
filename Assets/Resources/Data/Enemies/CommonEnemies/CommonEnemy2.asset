@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b352263621144541a43db41f995870f, type: 3}
+  m_Name: CommonEnemy2
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 3502626170662225050, guid: b8193fc95d08fe241b6bfdcc37cb9764, type: 3}
+  enemyModel: {fileID: 11400000, guid: 2fe62a9151c05a644b556531b473b657, type: 2}
