@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8704207002786201951}
   - component: {fileID: 3502626170662225050}
   - component: {fileID: 5521180794425138240}
+  - component: {fileID: 3109095266159934095}
   m_Layer: 0
   m_Name: Enemy2
   m_TagString: Untagged
@@ -96,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed552eb7ff735e4a841247d0b2ecc8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Coin>k__BackingField: {fileID: 5968026891949829030, guid: 6d1352c227c95d64f9fe50e94b079830, type: 3}
+  <RangeCollider>k__BackingField: {fileID: 3109095266159934095}
 --- !u!58 &5521180794425138240
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -113,3 +114,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.8
+--- !u!58 &3109095266159934095
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6387434348590933293}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 5

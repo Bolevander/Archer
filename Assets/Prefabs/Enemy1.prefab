@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ed552eb7ff735e4a841247d0b2ecc8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <RangeCollider>k__BackingField: {fileID: 5050514708722355998}
 --- !u!58 &-7571150545640426778
 CircleCollider2D:
   m_ObjectHideFlags: 0
